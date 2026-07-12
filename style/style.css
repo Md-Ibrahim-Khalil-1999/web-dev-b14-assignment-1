@@ -9,10 +9,6 @@ body{
     color: #111827;
 }
 
-img{
-    width: 100%;
-    display: block;
-}
 
 ul{
     list-style: none;
@@ -32,10 +28,11 @@ a{
     padding: 18px 0;
 }
 
-.logo {
+.logo-parent {
     
     width: 120px;
     height: auto;
+    display: block;
 }
 
 .nav-menu{
