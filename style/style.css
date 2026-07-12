@@ -1,25 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Inter', sans-serif;
     color: #111827;
 }
 
 
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: #374151;
 }
 
-.navbar{
+
+/* navbar CSS */
+
+.navbar {
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -29,22 +32,22 @@ a{
 }
 
 .logo-parent {
-    
+
     width: 120px;
     height: auto;
     display: block;
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
     gap: 30px;
 }
 
-.nav-menu a{
+.nav-menu a {
     font-size: 14px;
 }
 
-.btn-primary{
+.btn-primary {
     background: #2563eb;
     color: white;
     border: none;
@@ -53,4 +56,57 @@ a{
     font-weight: 600;
     cursor: pointer;
 }
+
+
+/* hero section CSS */
+
+.hero {
+    height: 700px;
+    background-image: url("../image and icon/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    max-width: 760px;
+}
+
+.hero-content h1 {
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+.hero-content p {
+    width: 829px;
+    height: 108px;
+    left: 421px;
+    top: 247px;
+
+    font-size: 22px;
+    line-height: 1.0909090909090908;
+    margin-bottom: 40px;
+}
+
+.hero-btn {
+    padding: 18px 40px;
+    margin-top: 210px;
+}
+
 
