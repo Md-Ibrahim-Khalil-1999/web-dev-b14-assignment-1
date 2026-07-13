@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.navbar,
+.speaker, 
+.pricing,
+.placeholder{
+    width: 90%;
+    max-width: 1200px;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     color: #111827;
@@ -105,8 +113,161 @@ a {
 }
 
 .hero-btn {
-    padding: 18px 40px;
+    padding: 18px 60px;
     margin-top: 210px;
 }
 
 
+/* speaker section CSS */
+
+.speakers{
+    max-width:1200px;
+    margin:100px auto;
+}
+
+.speakers h2{
+    text-align:center;
+    font-size:56px;
+    margin-bottom:60px;
+}
+
+.speaker-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.speaker-card{
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.speaker-card img{
+    height:320px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card-content span{
+    font-size:11px;
+    color:#2563eb;
+    font-weight:700;
+}
+
+.card-content h3{
+    margin:10px 0;
+    font-size:24px;
+}
+
+.card-content p{
+    color:#6b7280;
+}
+
+
+/* Pricing section CSS */
+
+
+.pricing{
+    max-width: 1200px;
+    margin: 120px auto;
+}
+
+.pricing h2{
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 10px;
+}
+
+.pricing-subtitle{
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 50px;
+}
+
+.pricing-container{
+    display: flex;
+    gap: 25px;
+}
+
+.price-card{
+    flex: 1;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 28px;
+}
+
+.price-card h5{
+    color:#6b7280;
+    margin-bottom:15px;
+}
+
+.price-card h3{
+    font-size: 54px;
+    margin-bottom: 5px;
+}
+
+.small-text{
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+
+.price-card hr{
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin-bottom: 20px;
+}
+
+.price-card ul{
+    margin-bottom: 30px;
+}
+
+.price-card li{
+    margin-bottom: 14px;
+    color: #4b5563;
+}
+
+.outline-btn{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #2563eb;
+    background: white;
+    color: #2563eb;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact-btn{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #111827;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.pro-card{
+    background: #0f172a;
+    color: white;
+}
+
+.pro-card .small-text{
+    color: #cbd5e1;
+}
+
+.pro-card li{
+    color: #e5e7eb;
+}
+
+.pro-card hr{
+    border-top: 1px solid #334155;
+}
+
+.pro-card .btn-primary{
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+}
